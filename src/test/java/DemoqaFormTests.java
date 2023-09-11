@@ -1,9 +1,6 @@
-import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Configuration;
-import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.By;
 
 import java.io.File;
 
@@ -23,7 +20,7 @@ public class DemoqaFormTests {
     private String year = "1975";
     private String subject = "Maths";
     private String hobby = "Reading";
-    private String filePath = "src\\test\\resources\\tiger.jpg";
+    private String filePath = "src/test/resources/tiger.jpg";
     private String fileName = "tiger.jpg";
     private String currentAddress = "USA";
     private String state = "Haryana";
