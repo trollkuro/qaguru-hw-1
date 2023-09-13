@@ -3,8 +3,9 @@ $("h1 div") = будет искать <div> в теге <h1>
 селектор сработает и найдёт "example"
 <body>
 ..<h1>test 1</h1>
-..<h1>test 2</h1>
+..<h1>test 2
 ....<div>example</div>
+..</h1>
 </body>
 
 
@@ -22,6 +23,7 @@ $("h1").$("div") = сначала найдёт первый <h1> и послед
 
 <body>
 ..<h1>test 1</h1>
-..<h1>test 2</h1>
+..<h1>test 2
 ....<div>example</div>
+..</h1>
 </body>
