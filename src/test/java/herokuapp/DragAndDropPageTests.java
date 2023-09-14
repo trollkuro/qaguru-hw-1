@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.DragAndDropOptions.to;
 import static com.codeborne.selenide.Selenide.*;
 
-public class DrugAndDropPageTests {
+public class DragAndDropPageTests {
     @BeforeAll
     public static void browserSetUp() {
         Configuration.pageLoadStrategy = "eager";
