@@ -14,7 +14,6 @@ public class DragAndDropPageTests {
         Configuration.pageLoadStrategy = "eager";
         Configuration.browserSize = "1920x1080";
         open("https://the-internet.herokuapp.com/drag_and_drop");
-        Configuration.holdBrowserOpen = true;
     }
 
     @Test

@@ -15,7 +15,6 @@ public class GithubSelenidePageTest {
         Configuration.pageLoadStrategy = "eager";
         Configuration.browserSize = "1920x1080";
         open("https://github.com");
-        //Configuration.holdBrowserOpen = true;
     }
 
     @Test
